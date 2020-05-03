@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "LinkedInScrapper",
+    "version": "0.1",
+    "description": "Scraping any profiles from serch results",
+    "background": {
+        "persistent": true,
+        "scripts": ["js/background.js"]
+    },
+    "permissions": ["contextMenus","activeTab","*://*/*"],
+    "icons":{
+        "128": "a.png"
+    }
+}
