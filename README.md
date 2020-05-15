@@ -1,10 +1,10 @@
 # linkedIn-Profile-Scraper
 This is a scraper used to scrape data from a different profiles including their work experience and contact info
 
-# Languages
+## Languages
 Javascript & PHP
 
-# info
+## info
 This scraper is a chrome extension and a php class that will help you to create an excel worksheet as well as a PDF document for each of the profiles.
 You can scrape thousands of data.
 
