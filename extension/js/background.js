@@ -15,8 +15,7 @@ chrome.contextMenus.onClicked.addListener(contextMenuhandler);
 function contextMenuhandler(info, tab){
     if(info.menuItemId === contextMenus.createScraper){
         // console.log("Menu clicked!");
-        chrome.tabs.executeScript({
-            file: "js/scraper.js"
-        });
+        chrome.tabs.executeScript({ file: "js/scraper.js" });
+        chrome.tabs.executeScript({ file: "js/init.js" });
     }
 }

@@ -2,10 +2,12 @@
     "manifest_version": 2,
     "name": "LinkedInScrapper",
     "version": "0.1",
-    "description": "Scraping any profiles from serch results",
+    "description": "Scraping any profiles from search results. This data will later on be passed to your server",
     "background": {
         "persistent": true,
-        "scripts": ["js/background.js"]
+        "scripts": [
+            "js/background.js"
+        ]
     },
     "permissions": ["contextMenus","activeTab","*://*/*"],
     "icons":{
